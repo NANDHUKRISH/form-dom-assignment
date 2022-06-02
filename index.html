@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <forms>
+      
+        <h2 style="text-align:center; background-color: rgb(223, 223, 20); width:100%"> Contact Us Form for kids </h2>
+  
+
+
+         <div class="name">   
+             <div>
+        <label for="firstname" style="padding-left:15px">FIRST NAME - </label>
+        <input type="text" name="firstname" id="firstname" required><br><br>
+    </div>
+    <div>
+        <label for="lastname">LAST NAME -</label>
+        <input type="text" name="lastname" id="lastname" required><br><br>
+        </div>
+    </div>
+        <div class="address">
+            <div>
+        <label for="pincode">PINCODE -</label>
+        <input type="text" name="pincode" id="pincode" required><br><br>
+    </div>
+    <div>
+        <label for="address" >ADDRESS -</label>
+        <textarea type="address" name="address" id="address" row="8" col="4" required></textarea><br><br>
+       </div>
+    </div>
+
+       <div class="food">
+           <div style="padding-left:15px">
+        <label for="gender">GENDER -</label>
+        <input type="text" name="gender" id="gender" required><br><br>
+        </div>
+        <div>
+        <label for="FOOD" id="FOOD">FAV FOOD (ANY 2) -</label>
+        <input type="checkbox" name="FOOD" >SHAWAI
+        <input type="checkbox" name="FOOD" >CHOCOLATE<br>
+        <input type="checkbox" name="FOOD" >ALFAM
+        <input type="checkbox" name="FOOD" >MEALS
+        <input type="checkbox" name="FOOD" >ICECREAM<br>
+       </div>
+        </div>
+
+        <br><br>
+        <div class="state">
+        <div>
+            <label for="state" style="padding-left:15px">STATE -</label>
+        <input type="text" name="state" id="state" required><br><br>
+    </div>
+    <div>
+        <label for="country">COUNTRY -</label>
+        <input type="text" name="country" id="country" required><br><br>
+    </div>
+</div>
+        <button id="submit" style="text-align:center; background-color: rgb(60, 233, 132); width:30% ; padding:10px; margin-bottom:20px;"> <h3>SUBMIT</h3> </button>
+</forms>
+</div>
+
+<table id="display">
+    <thead>
+ <tr>
+     <th>FIRST NAME </th>
+     <th>LAST NAME </th>
+     <th>PINCODE </th>
+     <th>ADDRESS </th>
+     <th>GENDER </th>
+     <th>FAV FOOD </th>
+     <th>STATE  </th>
+     <th>COUNTRY </th>
+ </tr>
+</thead>
+<tbody id="table-body">
+
+</tbody>
+</table>
+
+    <script src="script.js"></script>
+</body>
+</html>
